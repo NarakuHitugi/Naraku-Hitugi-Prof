@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>奈落 柩 | Naraku Hitsugi</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.jpg') repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: 0 0;
+      animation: moveBackground 60s linear infinite;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: #ccc;
+    }
+
+    @keyframes moveBackground {
+      from { background-position: 0 0; }
+      to { background-position: 0 1000px; }
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 40px;
+      max-width: 800px;
+      margin: 100px auto;
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #fff;
+      text-align: center;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .profile-pic {
+      display: block;
+      margin: 0 auto 30px auto;
+      width: 200px;
+      border-radius: 50%;
+      border: 2px solid #00ffff;
+    }
+
+    .links {
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="profile.jpg" alt="奈落 柩" class="profile-pic">
+    <h1>奈落 柩（ナラク ヒツギ）</h1>
+    <p>物語の中に潜む闇と光を描き出す、小説家。<br>
+       心を揺らす一瞬を、あなたに。</p>
+
+    <h2>掲載作品</h2>
+    <ul>
+      <li><a href="https://estar.jp/novels/26404897" target="_blank">幸せなまどろみ</a></li>
+      <li><a href="https://estar.jp/novels/26404935" target="_blank">人混みに紛れる彼</a></li>
+    </ul>
+
+    <div class="links">
+      <a href="https://x.com/naraku_hitugi?s=21&t=f2sLAHX-JaTlIv0gFEMq2A" target="_blank">X（旧Twitter）はこちら</a>
+    </div>
+  </div>
+</body>
+</html>
